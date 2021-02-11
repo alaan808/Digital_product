@@ -1,0 +1,336 @@
+html,body{
+    padding:0px;
+    margin:0px;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+}
+
+nav{
+    background-color:#DE99F2;
+    padding: 10px 40px; /*Establece el espacio de relleno requerido por todos los lados de un elemento*/
+}
+
+nav h1{
+    font-weight: normal; /*Sirve para cambiar el pese de la tipografia. Ejem: Bold a normal*/
+    margin: 0;
+    font-size: 35px;
+    font-family: "Raleway";
+}
+
+.main_section{
+    text-align: center;
+    max-width: 712px;
+    width: 100%;
+    margin: 46px auto 33px;
+    box-sizing: border-box;
+}
+
+.main_section h2{
+    font-family: "Raleway";
+    font-size: 30px;
+    color: #2E2E2E;
+}
+
+.products{
+    display: flex;
+    justify-content: center; /*Sirve para centrar el contenido horizontal en un elemento display flex*/
+}
+
+.product{
+    padding: 8px 26px 26px;
+    width: 332px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.16);
+    border: 1px solid #F7F4F4;
+    background-image: url(../images/Fondo-botones.svg);
+    background-size: contain; /*Ajusta el fondo al tamaño del elemento, sin salirse.*/
+    background-repeat: no-repeat; 
+    background-position: bottom center;
+    box-sizing: border-box; /*Impide que los espaciados del contenedor lo hagan mas grande del ancho establecido.*/
+    border-radius: 16px;
+}
+/* firts child selecciona el primer elemento */
+.product:first-child{
+    margin-right: 75px;
+}
+
+.product h3, .product p{
+    text-align: left;
+}
+
+.product h3{
+    margin: 0 0 8px;
+    font-family: "Raleway";
+    font-size: 25px;
+    color: #2E2E2E;
+}
+
+.product p{
+    margin: 0 0 18px;
+    font-family: "Raleway";
+    font-size: 18px;
+    color: #707070;
+}
+
+.lion{
+    width: 127px;
+    height: 122px;
+    text-align: center;
+    margin: 19px 0 10px;
+}
+
+.body_spine{
+    width: 143px;
+    height: 143px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.product button{
+    width: 100%;
+    height: 62px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: "Raleway";
+    font-weight: bold;
+    color: white;
+    background-color: #DE99F2;
+    border: 1px solid #707070;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+    outline: none;
+    transition: background ease 0.3s;
+}
+
+.product button:hover{
+    background-color: #B37BC3;
+}
+
+.comments{
+    background-image: url(../images/Cuvas.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.comments_header h2{
+    font-family: "Raleway";
+    font-size: 30px;
+    margin: 71px 0 20px;
+    text-align: center;
+    color: #2E2E2E;
+}
+
+.comments_header p{
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 18px;
+    color: #A8A8A8;
+    margin: 0 auto 35px;
+}
+
+.separator{
+    height: 13px;
+    width: 125px;
+    background-color: #DE99F2;
+    margin: 0 auto 30px;
+    border-radius: 30px;
+}
+
+.comments_content{
+    display: flex;
+    justify-content: center;
+}
+
+.comment{
+    width: 359px;
+    height: 431px;
+    background-color: #FFFFFF;
+    margin: 0 38px 108px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.16);
+    border-radius: 16px;
+}
+
+.comment p{
+    font-family: Raleway;
+    font-size: 16px;
+    color: #585858;
+    margin: 0 134px 43px 56px;
+}
+
+.quote_image{
+    width: 36px;
+    height: 36px;
+    margin: 56px 267px 46px 56px;
+}
+
+.comment_user{
+    display: flex;
+    justify-content: center;
+    align-items: center; /*Alinea los items verticalmente*/
+}
+
+.comment_user p{
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 0 0;
+}
+
+.user_image{
+    width: 65px;
+    height: 65px;
+    margin-right: 14px;
+    border-radius: 65px;
+    border: 1px solid #CECECE;
+}
+
+footer{
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    background-color: #DE99F2;
+    padding: 13px 19px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.terms_and_Conditions{
+    font-family: "Raleway";
+    font-size: 15px;
+}
+
+.terms_and_Conditions h3{
+    margin: 0;
+}
+
+.email{
+    font-family: "Raleway";
+    font-size: 15px;
+}
+
+.email h3{
+    margin: 0;
+}
+
+/*CSS de formulario*/
+
+.conteiners{
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner{
+    padding: 8px 26px 26px;
+    width: 332px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.16);
+    border: 1px solid #F7F4F4;
+    background-image: url(../images/Fondo-botones.svg);
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.conteiner h3{
+    margin: 0 0 8px;
+    font-family: "Raleway";
+    font-size: 25px;
+    color: #2E2E2E;
+}
+
+.conteiner p{
+    margin: 0 0 18px;
+    font-family: "Raleway";
+    font-size: 18px;
+    color: #707070;
+}
+
+.conteiner .lion{
+    margin-top: 80px;
+}
+
+.form{
+    padding: 26px;
+    width: 584px;
+}
+
+.form:first-child{
+    margin-right: 58px;
+}
+
+.form input{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 46px;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    padding: 0 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form label{
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #A9A9A9;
+}
+
+.form button{
+    width: 280px;
+    height: 62px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: "Raleway";
+    font-weight: bold;
+    color: white;
+    background-color: #DE99F2;
+    border: 1px solid #707070;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+    outline: none;
+    transition: background ease 0.3s;
+    margin-left: 50%;
+    transform: translateX(-50%);   /*transforma el elemento, si es trasleteX lo mueve en horizontal*/
+}
+
+.foot{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+}
+
+.title{
+    text-decoration: none;
+    color: #000000;
+    transition: all ease .3s;
+    display: inline-block;
+}
+
+.title:hover{
+    transform: scale(1.1);
+}

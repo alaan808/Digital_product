@@ -1,0 +1,28 @@
+body{
+    background-color: #5B5A5C;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img{
+    width: 153px;
+    height: 153px;
+}
+
+h3{
+    color: #FFFFFF;
+    font-family: "Raleway";
+    font-size: 25px;
+}
+
+p{
+    color: #FFFFFF;
+    font-family: "Raleway";
+}
+
+a{
+    color: #DE99F2;
+}
